@@ -1,0 +1,277 @@
+{% extends 'store/base.html' %}
+
+{% load static %}
+
+{% block content %}
+<main style="background-color: rgb(247, 247, 247)">
+      <div class="container" style="padding-top: 0.5%">
+        <a
+          class="fst-italic link-dark fw-normal"
+          href="{% url 'index' %}"
+          style="text-decoration: none"
+          >Главная</a> > <span class="fst-italic link-dark fw-normal">Гарантия</span>
+      </div>
+      <div class="container" style="padding-top: 1%">
+        <p class="fs-1 fw-bold">Гарантия и возврат</p>
+        <p class="fs-5">
+          Приобретая технику через маркетплейс Gadget Store, Вы можете быть
+          абсолютно уверены в том, что получите совершенно новый, оригинальный
+          продукт, на который распространяется гарантия. <br />Срок гарантийного
+          обслуживания, в течение которого осуществляется бесплатный ремонт,
+          устанавливается фирмой-производителем.
+        </p>
+      </div>
+      <div class="container" style="padding-top: 1%">
+        <p class="fs-4 fw-bold">Условия гарантии</p>
+        <ul class="list-group list-group-flush" style="padding-left: 2%">
+          <li class="fs-6">
+            Гарантийный срок 1 год с момента покупки распространяется на: всю
+            технику Apple, Samsung, смартфоны, планшеты, персональные
+            компьютеры, игровые приставки, акустические системы, бытовую
+            технику;
+          </li>
+          <li class="fs-6" style="padding-top: 1%">
+            Гарантийный срок 6 месяцев с момента покупки распространяется на:
+            умные гаджеты, умные часы (за исключением умных часов компании Apple
+            и Samsung), наушники (за исключением наушников компании Apple,
+            Samsung и JBL);
+          </li>
+          <li class="fs-6" style="padding-top: 1%">
+            Гарантийный срок 1 месяц с момента покупки распространяются на: все
+            аксессуары, портативные аккумуляторы, сетевые зарядные устройства;
+          </li>
+          <li class="fs-6" style="padding-top: 1%">
+            Основанием для гарантии является гарантийный талон или другие
+            документы, предоставляемые маркетплейсом Big Geek или
+            магазином-партнёром;
+          </li>
+          <li class="fs-6" style="padding-top: 1%">
+            Транспортировка товара весом менее 5 кг обратно продавцу для
+            обмена/возврата, а также для диагностики и гарантийного обслуживания
+            производится покупателем самостоятельно.
+          </li>
+        </ul>
+      </div>
+      <div class="container" style="background-color: #e0c1c4; margin-top: 1%">
+        <p class="fs-4 fw-semibold">ОБРАТИТЕ ВНИМАНИЕ!</p>
+        <p class="fs-5 fw-semibold">
+          Изделие НЕ подлежит гарантийному ремонту, если:
+        </p>
+        <ul class="list-group list-group-flush" style="padding-left: 4%">
+          <li class="fs-6">
+            изделие имеет
+            <strong
+              >механические, термические, электрические повреждения</strong
+            >
+            (в том числе скрытые); изделие имеет повреждения, вызванные
+            небрежным обращением;
+          </li>
+          <li class="fs-6" style="padding-top: 1%">
+            изделие имеет следы попадания
+            <strong>внутрь посторонних веществ, предметов, жидкостей</strong>;
+          </li>
+          <li class="fs-6" style="padding-top: 1%">
+            выход из строя изделия вызван использованием нестандартных или
+            <strong>несовместимых запчастей</strong>, комплектующих,
+            программного обеспечения, расходных материалов, чистящих материалов;
+          </li>
+          <li class="fs-6" style="padding-top: 1%">
+            изделие имеет повреждения, вызванные стихией, пожаром,
+            <strong>бытовыми факторами</strong>;
+          </li>
+          <li class="fs-6" style="padding-top: 1%">
+            изделие повреждено при
+            <strong
+              >транспортировке, хранении или нарушены правила
+              эксплуатации</strong
+            >. В частности, если изделие содержит элементы со следами перегрева,
+            сгоревшие контакты или дорожки платы;
+          </li>
+          <li class="fs-6" style="padding-top: 1%">
+            имеются <strong>следы постороннего вмешательства</strong> или была
+            попытка несанкционированного ремонта;
+          </li>
+          <li class="fs-6" style="padding-top: 1%">
+            <strong>повреждены гарантийные пломбы</strong> производителя или
+            поставщика;
+          </li>
+          <li class="fs-6" style="padding-top: 1%; margin-bottom: 1%">
+            заводская маркировка или <strong>серийный номер повреждены</strong>,
+            неразборчивы или имеют следы переклеивания.
+          </li>
+        </ul>
+      </div>
+      <div class="container">
+        <p class="fs-4 fw-bold" style="padding-top: 2%">
+          Обмен товара ненадлежащего качества:
+        </p>
+        <p class="fs-5">
+          В случае обнаружения потребителем недостатков приобретенного товара
+          заводского характера в течение 14 дней, не считая дня покупки,
+          продавец обязуется заменить такой товар в течение 7 дней со дня
+          обращения покупателя, а при необходимости дополнительной проверки
+          качества такого товара – в течение 20 дней с момента обращения.
+        </p>
+        <p class="fs-4 fw-bold" style="padding-top: 2%">
+          Обмен товара надлежащего качества:
+        </p>
+        <p class="fs-5">
+          Согласно Статье 25 Закона «О защите прав потребителей», потребитель
+          имеет право обменять товар надлежащего качества в течение четырнадцати
+          дней, не считая дня покупки. Обмен товара надлежащего качества
+          производится в случае, если:
+        </p>
+        <ul class="list-group list-group-flush" style="padding-left: 2%">
+          <li class="fs-5">товар не был в употреблении;</li>
+          <li class="fs-5" style="padding-top: 1%">
+            сохранен его товарный вид;
+          </li>
+          <li class="fs-5" style="padding-top: 1%">
+            сохранены его потребительские свойства;
+          </li>
+          <li class="fs-5" style="padding-top: 1%">
+            сохранены фабричные ярлыки и пломбы;
+          </li>
+          <li class="fs-5" style="padding-top: 1%">
+            имеется товарный и/или кассовый чек.
+          </li>
+        </ul>
+      </div>
+      <div class="container" style="background-color: #e0c1c4; margin-top: 1%">
+        <p class="fs-4 fw-semibold">ОБРАТИТЕ ВНИМАНИЕ!</p>
+        <ul class="list-group list-group-flush" style="padding-left: 4%">
+          <li class="fs-6">
+            Обменять или вернуть товар можно в нашем пункте самовывоза, который
+            находится по адресу г. Москва, Багратионовский проезд, д. 7 к. 20В,
+            Б.Ц. "Конвент", офис 711 (7 этаж);
+          </li>
+          <li class="fs-6" style="padding-top: 1%">
+            При себе необходимо иметь товар, упаковку и комплектующие к нему,
+            товарный чек с гарантийным талоном;
+          </li>
+          <li class="fs-6" style="padding-top: 1%; margin-bottom: 1%">
+            Если вы находитесь в другом городе, необходимо отправить товар
+            курьерской службой с полным страхованием товара и доставкой лично в
+            руки. Подробности пересылки можно уточнить у регионального
+            менеджера. Условия обмена или возврата указаны выше.
+          </li>
+        </ul>
+      </div>
+      <div class="container" style="padding-top: 1%">
+        <p class="fs-5">
+          По вопросам гарантийного обслуживания и возврата звоните нам по тел: 8
+          (800) 555-35-35 (с 10:00 до 21:00 в будние дни и с 11:00 до 20:00 – в
+          выходные)
+        </p>
+      </div>
+      <nav class="navbar navbar-expand-lg" style="padding-top: 2%">
+        <div class="container shadow" style="background-color: #745eac">
+          <div class="collapse navbar-collapse p-5" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+              <li style="width: 254px; margin-right: 10px">
+                <a>
+                  <p1 class="fs-5 text-white fw-normal">Быстрая доставка</p1>
+                  <h1 class="fs-6 text-white fw-normal">
+                    Вслушайтесь и вы услышите<br />
+                    как торопится наш курьер!
+                  </h1>
+                </a>
+              </li>
+              <li style="width: 254px; margin-right: 0px">
+                <a>
+                  <p1 class="fs-5 text-white"> Простой возврат</p1>
+                  <h1 class="fs-6 text-white fw-normal">
+                    Мы поможем вам с этим, <br />если что-то пошло не так!
+                  </h1>
+                </a>
+              </li>
+              <li style="width: 254px; margin-right: 0x">
+                <a>
+                  <p1 class="fs-5 text-white fw-normal"> Скидки и акции</p1>
+                  <h1 class="fs-6 text-white fw-normal">
+                    Каждый день, специально <br />для вас!
+                  </h1></a
+                >
+              </li>
+              <li style="width: 254px; margin-left: 10px">
+                <a
+                  ><p1 class="fs-5 text-white"> Консьерж-сервис</p1>
+                  <h1 class="fs-6 text-white fw-normal">
+                    Помощь при выборе и эксплуатации вашего гаджета!
+                  </h1>
+                </a>
+              </li>
+              <li style="width: 254px; margin-right: 10px">
+                <a
+                  ><p1 class="fs-5 text-white"> Мы классные</p1>
+                  <h1 class="fs-6 text-white fw-normal">
+                    С нами так приятно <br />
+                    иметь дело!
+                  </h1></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <footer class="text-center text-lg-start bg-light text-muted">
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        ></section>
+        <section class="">
+          <div class="container text-center text-md-start mt-3">
+            <div class="row mt-3">
+              <div class="col-md-3 col-lg-4 col-xl-4 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4 text-dark">
+                  <i class="fas fa-gem"></i>GadgetStore
+                </h6>
+                <p>
+                  Мы всегда стремимся найти самых выгодных поставщиков, поэтому
+                  наши цены такие низкие. Более 1000 клиентов по всей России,
+                  попробуйте и Вы!
+                </p>
+              </div>
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4 text-dark">О нас</h6>
+                <p>
+                  <a href="about.html" class="text-reset">О компании</a>
+                </p>
+                <p>
+                  <a href="delivery.html" class="text-reset">Доставка</a>
+                </p>
+                <p>
+                  <a href="guarantee.html" class="text-reset">Гарантия</a>
+                </p>
+                <p>
+                  <a href="TradeIN.html" class="text-reset">Trade In</a>
+                </p>
+              </div>
+
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase fw-bold mb-4 text-dark">Контакты</h6>
+                <p>
+                  <i class="fas fa-home"></i> Москва, Багратионовский проезд, д.
+                  7 к. 20В, Б.Ц. "Конвент", офис 711 (7 этаж)
+                </p>
+                <p>
+                  <i class="fas fa-envelope"></i>
+                  info@GadgetStore.ru
+                </p>
+                <p><i class="fas fa-phone"></i> 8(915)·252·58·59</p>
+                <p><i class="fas fa-print"></i> 8(800)·555·35·35</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div
+          class="text-center p-3"
+          style="background-color: rgb(240, 239, 239)"
+        >
+          © 2022 Авторские права:
+          <a class="text-reset fw-bold" href="https://mdbootstrap.com/"
+            >NodeathMod</a
+          >
+        </div>
+      </footer>
+    </main>
+{% endblock %}

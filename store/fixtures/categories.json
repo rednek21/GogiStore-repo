@@ -1,0 +1,1 @@
+[{"model": "store.category", "pk": 1, "fields": {"name": "Apple Iphone"}}, {"model": "store.category", "pk": 2, "fields": {"name": "Apple Ipad"}}, {"model": "store.category", "pk": 3, "fields": {"name": "Apple Airpods"}}, {"model": "store.category", "pk": 4, "fields": {"name": "Аксессуары"}}, {"model": "store.category", "pk": 5, "fields": {"name": "Для дома"}}]

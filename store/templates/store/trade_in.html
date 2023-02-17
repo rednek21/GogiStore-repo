@@ -1,0 +1,210 @@
+{% extends 'store/base.html' %}
+
+{% load static %}
+
+{% block content %}
+<main style="background-color: rgb(247, 247, 247)">
+      <div class="container" style="padding-top: 0.5%">
+        <a
+          class="fst-italic link-dark fw-normal"
+          href="{% url 'index' %}"
+          style="text-decoration: none"
+          >Главная</a> > <span class="fst-italic link-dark fw-normal">Trade In</span>
+      </div>
+      <div class="container">
+        <p class="fs-1 fw-bold" style="padding-top: 1%">
+          Gadget Store Trade-in
+        </p>
+        <p class="fs-5">
+          Хотите купить новый iPhone, но не знаете, что делать со старым? Gadget
+          Store предлагает Вам уникальную услугу обмена вашего старого телефона
+          по системе Trade-In!
+        </p>
+        <img src="{% static 'vendor/img/TradeIn.jpg' %}" alt="my image" style="padding-left: 20%" />
+        <p class="fs-4 fw-semibold">Что такое Trade-in?</p>
+        <p class="fs-5">
+          Trade-in — программа обмена старых устройств на скидку при покупке
+          нового. При сдаче устройства в Trade-in, оно оценивается исходя из
+          актуальности модели, его технического и внешнего состояния. Сумма, на
+          которую было оценено устройство, предоставляется пользователю в
+          качестве скидки на приобретение нового.<br />
+          Проще говоря, Вы приносите свой старый телефон нам при самовывозе,
+          сдаете его и тут же получаете скидку на покупку нового устройства!
+        </p>
+        <p class="fs-4 fw-semibold">Какими преимуществами обладает Trade-in?</p>
+        <p class="fs-5" style="padding-left: 1%">
+          – Вам не нужно тратить время на создание объявлений и продажу
+          телефона. Мы просто заберем его у вас :)<br />
+          – Наша компания берет на себя все риски, связанные с продажей Вашего
+          старого устройства. У вас нет повода для беспокойства; <br />– Вы
+          получаете дополнительную скидку на покупку нового устройства.
+        </p>
+        <p class="fs-4 fw-semibold">
+          Можно ли сдать в Trade-in более одного устройства?
+        </p>
+        <p class="fs-5">
+          Да, конечно. Вы можете принести нам хоть целый мешок телефонов :)
+        </p>
+        <p class="fs-4 fw-semibold">Как узнать размер дополнительной скидки?</p>
+        <p class="fs-5">
+          Размер скидки рассчитывается индивидуально и зависит от приобретаемого
+          устройства. Вы можете оставить заявку или позвонить нам для получения
+          более точной информации.
+        </p>
+        <p class="fs-4 fw-semibold">Где можно произвести замену устройства?</p>
+        <p class="fs-5">
+          Замену устройства можно произвести в шоуруме по адресу: Москва,
+          Багратионовский проезд, д. 7 к. 20В, Б.Ц. "Конвент", офис 711 (7
+          этаж).
+        </p>
+        <p class="fs-4 fw-semibold">Какие устройства принимаются в Trade-in?</p>
+        <p class="fs-5">
+          В настоящий момент мы принимаем в Trade-in технику Apple и отдельные
+          модели смартфонов Samsung Galaxy.
+        </p>
+        <p class="fs-4 fw-semibold">Как воспользоваться услугой Trade-in?</p>
+        <p class="fs-5">
+          Существует два простейших способа. <br /><strong>Способ №1:</strong
+          ><br />Вы можете заполнить заявку на нашем сайте. Заполнение заявки не
+          займет более 3 минут. В заявке необходимо будет указать: <br />–
+          Модель телефона, объем памяти, цвет (по желанию);<br />
+          – Комплектация;<br />
+          – Был ли телефон в ремонте, что было заменено, если был; <br />– IMEI
+          устройства или серийный номер (по желанию);<br />
+          – Вашу контактную информацию, чтобы менеджеры могли дать вам
+          предварительный ответ об оценочной стоимости устройства. <br /><strong
+            >Способ №2:</strong
+          >
+          <br />– Оформите заказ на нашем сайте, в боковом меню выбрав отметку
+          «Trade-in». В комментариях к заказу укажите, какой аппарат хотите
+          сдать по данной программе; <br />– Приезжайте к нам в пункт
+          самовывоза, захватив с собой устройство, которое хотите обменять.
+        </p>
+        <p class="fs-4 fw-semibold">
+          Принимаем ли мы в Trade-in заблокированные на Apple ID телефоны?
+        </p>
+        <p class="fs-5">
+          Увы, нет. Если Вы нашли телефон на улице – проявите сознательность и
+          лучше отнесите его в полицию. А если вы забыли свой Apple ID, то
+          попробуйте обратиться в техподдержку Apple.<br />
+          <strong
+            >Если у Вас остались вопросы, мы с радостью ответим на них по
+            телефону - 8 (495) 943-49-43<br />
+            Также Вы можете связаться с нами в соц. сетях и
+            мессенджерах:</strong
+          ><br />
+          Telegram/WhatsApp/Viber <br />Twitter: GadgetStoreRu <br />ВКонтакте:
+          vk.com/gadgetstoreru
+        </p>
+      </div>
+      <nav class="navbar navbar-expand-lg" style="padding-top: 2%">
+        <div class="container shadow" style="background-color: #745eac">
+          <div class="collapse navbar-collapse p-5" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+              <li style="width: 254px; margin-right: 10px">
+                <a>
+                  <p1 class="fs-5 text-white fw-normal">Быстрая доставка</p1>
+                  <h1 class="fs-6 text-white fw-normal">
+                    Вслушайтесь и вы услышите<br />
+                    как торопится наш курьер!
+                  </h1>
+                </a>
+              </li>
+              <li style="width: 254px; margin-right: 0px">
+                <a>
+                  <p1 class="fs-5 text-white"> Простой возврат</p1>
+                  <h1 class="fs-6 text-white fw-normal">
+                    Мы поможем вам с этим, <br />если что-то пошло не так!
+                  </h1>
+                </a>
+              </li>
+              <li style="width: 254px; margin-right: 0x">
+                <a>
+                  <p1 class="fs-5 text-white fw-normal"> Скидки и акции</p1>
+                  <h1 class="fs-6 text-white fw-normal">
+                    Каждый день, специально <br />для вас!
+                  </h1></a
+                >
+              </li>
+              <li style="width: 254px; margin-left: 10px">
+                <a
+                  ><p1 class="fs-5 text-white"> Консьерж-сервис</p1>
+                  <h1 class="fs-6 text-white fw-normal">
+                    Помощь при выборе и эксплуатации вашего гаджета!
+                  </h1>
+                </a>
+              </li>
+              <li style="width: 254px; margin-right: 10px">
+                <a
+                  ><p1 class="fs-5 text-white"> Мы классные</p1>
+                  <h1 class="fs-6 text-white fw-normal">
+                    С нами так приятно <br />
+                    иметь дело!
+                  </h1></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <footer class="text-center text-lg-start bg-light text-muted">
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        ></section>
+        <section class="">
+          <div class="container text-center text-md-start mt-3">
+            <div class="row mt-3">
+              <div class="col-md-3 col-lg-4 col-xl-4 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4 text-dark">
+                  <i class="fas fa-gem"></i>GadgetStore
+                </h6>
+                <p>
+                  Мы всегда стремимся найти самых выгодных поставщиков, поэтому
+                  наши цены такие низкие. Более 1000 клиентов по всей России,
+                  попробуйте и Вы!
+                </p>
+              </div>
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4 text-dark">О нас</h6>
+                <p>
+                  <a href="about.html" class="text-reset">О компании</a>
+                </p>
+                <p>
+                  <a href="delivery.html" class="text-reset">Доставка</a>
+                </p>
+                <p>
+                  <a href="guarantee.html" class="text-reset">Гарантия</a>
+                </p>
+                <p>
+                  <a href="TradeIN.html" class="text-reset">Trade In</a>
+                </p>
+              </div>
+
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase fw-bold mb-4 text-dark">Контакты</h6>
+                <p>
+                  <i class="fas fa-home"></i> Москва, Багратионовский проезд, д.
+                  7 к. 20В, Б.Ц. "Конвент", офис 711 (7 этаж)
+                </p>
+                <p>
+                  <i class="fas fa-envelope"></i>
+                  info@GadgetStore.ru
+                </p>
+                <p><i class="fas fa-phone"></i> 8(915)·252·58·59</p>
+                <p><i class="fas fa-print"></i> 8(800)·555·35·35</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div
+          class="text-center p-3"
+          style="background-color: rgb(240, 239, 239)"
+        >
+          © 2022 Авторские права:
+          <a class="text-reset fw-bold" href="https://mdbootstrap.com/"
+            >NodeathMod</a
+          >
+        </div>
+      </footer>
+    </main>
+{% endblock %}

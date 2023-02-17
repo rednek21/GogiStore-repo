@@ -1,0 +1,197 @@
+{% extends 'store/base.html'%}
+
+{% load static %}
+
+{% block content %}
+<main style="background-color: rgb(247, 247, 247)">
+      <div
+        id="carouselExamplewdark"
+        class="carousel carousel-white slide p-4 g-5 container"
+        data-bs-ride="carousel"
+        style="width: 57%"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <a href="{% url 'store:all_electronics' %}">
+              <img
+                src="{% static 'vendor/img/IphonePhotos/main.jpg' %}"
+                class="d-block w- mx-auto"
+                alt="..."
+                style="border-radius: 10px"
+              />
+            </a>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <a href="{% url 'store:all_electronics' %}">
+              <img
+                src="{% static 'vendor/img/IphonePhotos/main2.jpg' %}"
+                class="d-block w- mx-auto"
+                alt="..."
+                style="border-radius: 10px"
+              />
+            </a>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <a href="{% url 'store:all_electronics' %}">
+              <img
+                src="{% static 'vendor/img/IphonePhotos/main3.jpg' %}"
+                class="d-block w- mx-auto"
+                alt="..."
+                style="border-radius: 10px"
+              />
+            </a>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <a href="{% url 'store:all_electronics' %}">
+              <img
+                src="{% static 'vendor/img/IphonePhotos/main4.jpg' %}"
+                class="d-block w- mx-auto"
+                alt="..."
+                style="border-radius: 10px"
+              />
+            </a>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <a href="{% url 'store:all_electronics' %}">
+              <img
+                src="{% static 'vendor/img/IphonePhotos/main5.jpg' %}"
+                class="d-block w- mx-auto"
+                alt="..."
+                style="border-radius: 10px"
+              />
+            </a>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <a href="{% url 'store:all_electronics' %}">
+              <img
+                src="{% static 'vendor/img/IphonePhotos/main6.jpg' %}"
+                class="d-block w- mx-auto"
+                alt="..."
+                style="border-radius: 10px"
+              />
+            </a>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <a href="{% url 'store:all_electronics' %}">
+              <img
+                src="{% static 'vendor/img/IphonePhotos/main7.jpg' %}"
+                class="d-block w- mx-auto"
+                alt="..."
+                style="border-radius: 10px"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container shadow" style="background-color: #745eac">
+          <div class="collapse navbar-collapse p-5" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+              <li style="width: 254px; margin-right: 10px">
+                <a>
+                  <p1 class="fs-5 text-white fw-normal">Быстрая доставка</p1>
+                  <h1 class="fs-6 text-white fw-normal">
+                    Вслушайтесь и вы услышите<br />
+                    как торопится наш курьер!
+                  </h1>
+                </a>
+              </li>
+              <li style="width: 254px; margin-right: 0px">
+                <a>
+                  <p1 class="fs-5 text-white"> Простой возврат</p1>
+                  <h1 class="fs-6 text-white fw-normal">
+                    Мы поможем вам с этим, <br />если что-то пошло не так!
+                  </h1>
+                </a>
+              </li>
+              <li style="width: 254px; margin-right: 0x">
+                <a>
+                  <p1 class="fs-5 text-white fw-normal"> Скидки и акции</p1>
+                  <h1 class="fs-6 text-white fw-normal">
+                    Каждый день, специально <br />для вас!
+                  </h1></a
+                >
+              </li>
+              <li style="width: 254px; margin-left: 10px">
+                <a
+                  ><p1 class="fs-5 text-white"> Консьерж-сервис</p1>
+                  <h1 class="fs-6 text-white fw-normal">
+                    Помощь при выборе и эксплуатации вашего гаджета!
+                  </h1>
+                </a>
+              </li>
+              <li style="width: 254px; margin-right: 10px">
+                <a
+                  ><p1 class="fs-5 text-white"> Мы классные</p1>
+                  <h1 class="fs-6 text-white fw-normal">
+                    С нами так приятно <br />
+                    иметь дело!
+                  </h1></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <footer class="text-center text-lg-start bg-light text-muted">
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        ></section>
+        <section class="">
+          <div class="container text-center text-md-start mt-3">
+            <div class="row mt-3">
+              <div class="col-md-3 col-lg-4 col-xl-4 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4 text-dark">
+                  <i class="fas fa-gem"></i>GadgetStore
+                </h6>
+                <p>
+                  Мы всегда стремимся найти самых выгодных поставщиков, поэтому
+                  наши цены такие низкие. Более 1000 клиентов по всей России,
+                  попробуйте и Вы!
+                </p>
+              </div>
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4 text-dark">О нас</h6>
+                <p>
+                  <a href="{% url 'store:about' %}" class="text-reset">О компании</a>
+                </p>
+                <p>
+                  <a href="{% url 'store:delivery_info' %}" class="text-reset">Доставка</a>
+                </p>
+                <p>
+                  <a href="{% url 'store:guarantee' %}" class="text-reset">Гарантия</a>
+                </p>
+                <p>
+                  <a href="{% url 'store:trade_in' %}" class="text-reset">Trade In</a>
+                </p>
+              </div>
+
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase fw-bold mb-4 text-dark">Контакты</h6>
+                <p>
+                  <i class="fas fa-home"></i> Москва, Багратионовский проезд, д.
+                  7 к. 20В, Б.Ц. "Конвент", офис 711 (7 этаж)
+                </p>
+                <p>
+                  <i class="fas fa-envelope"></i>
+                  info@GadgetStore.ru
+                </p>
+                <p><i class="fas fa-phone"></i> 8(915)·252·58·59</p>
+                <p><i class="fas fa-print"></i> 8(800)·555·35·35</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div
+          class="text-center p-3"
+          style="background-color: rgb(240, 239, 239)"
+        >
+          © 2022 Авторские права:
+          <a class="text-reset fw-bold" href="https://mdbootstrap.com/"
+            >NodeathMod</a
+          >
+        </div>
+      </footer>
+    </main>
+{% endblock %}
