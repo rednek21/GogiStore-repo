@@ -33,7 +33,7 @@ class Product(models.Model):
     price = models.IntegerField()
     color = models.CharField(max_length=50)
     memory = models.IntegerField()
-    image = models.ImageField(upload_to='products_images')
+    image = models.ImageField(upload_to='products_images', blank=True, null=True)
     sim = models.BooleanField(default=True)
     esim = models.BooleanField(default=False)
     origin_country = models.CharField(max_length=50)
